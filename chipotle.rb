@@ -22,17 +22,19 @@ my_order = {}
 #STEP ONE:
 	#you are in line at chipotle and what to know what different styles they have
 	#Display all the options available for style 
-
+puts main[:style]
 
 
 #STEP TWO:
 	#Using the empty my_order hash, 
 	#Chose your style from the available options and add a new key value pair to that hash
-
+my order[:style] = main[:style].delete("salad")
+print main
 
 #STEP THREE:
 	#Chose what meat you want & add it to your my_order hash
-
+my_order[:topping].select {|topping|} topping == "guacamole" || }
+print my_order << main[:topping][2]
 #STEP FOUR:
 	#Chose what rice, bean or veggies you want and it it as a new key value pair to my_order. 
 		#HINT: You may want to chose more than one option, how will you store multiples in your order?
